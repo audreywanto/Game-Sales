@@ -1,0 +1,37 @@
+Milestone 3
+
+Name: Audrey Wanto
+Batch: BSD 002
+
+===================
+Conceptual Problems
+===================
+
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+NoSQL stands for Not Only SQL, which means it is able to query data that is not only limited to structured data (like tables). Unlike SQL where the data is in a table form, NoSQL
+stores the data in a dictionary like list. This means that the database is generally more flexible, and storing data takes less space/memory.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+NoSQL is used when the data needs scaling, or if the data type is not of a table form. 
+Relational Database Management System (SQL) can be used if the data is already structured, and if the query is more advanced (such as aggregation)
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+MonogoDB is one of the platforms for NoSQL, which saves data in flat files, provide real-time analysis and aggregation, offer complex structures, etc for free.
+Another platform is Azure Cosmos DB, which is a paid platform mainly used for modern app development. They offer restoration of deleted data from backups, and allows the user to use graphs, dictionaries, columns, and documents.
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+Airflow is a platform that runs on the localhost to perform the code done through intervals based on the schedule given. It uses a python file to run (DAG), which will then
+be executed when it is scheduled. The usage of docker to connect the DAG and Airflow is needed, but it does not necessarily have to be docker.
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+Great Expectations are a sort of validation and testing for the data (whether it be given from other people, or going through data processing).
+The data is validated to ensure the transformation from data processing is right (whether it be pipeline or other transformations).
+This is also the provent poor data quality or issues slipping when trying to use the data to analyze or create visualizations and such.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+Batch processing is a method for computers to repeat high-volume jobs over and over again. The jobs can include processing, backing up files, filtering, sorting, and others.
+It is used to minimalize human interaction which can also optimize the efficiency of the jobs running.
+A case example for this is for payroll, where the process of calculating the payroll for employees in different groups can be done at the same time.
+One of the tools used is Amazon Web Services (AWS) which can be used to run a huge amount of data while allocating resources so that people are able to focus on other important tasks.
+
